@@ -3,20 +3,20 @@ A simple bash script for multiple iterative attempts to deploy solana smart cont
 
 ## How to use
 ### Download the script
-```bash
+```shell
 curl -sSL https://raw.githubusercontent.com/hannesgao/auto-anchor-deploy.sh/refs/heads/main/auto-anchor-deploy.sh
 ```
 ### Make it executable
-```bash
+```shell
 chmod +x auto-anchor-deploy.sh
 ```
 ### Change configuration parameters in script (optional)
-```bash
+```shell
 # Configuration parameters, change them if needed
 MAX_RETRIES=5   # times
 WAIT_TIME=10    # seconds
 ```
 ### Run the script
-```bash
+```shell
 ./auto-anchor-deploy.sh
 ```
